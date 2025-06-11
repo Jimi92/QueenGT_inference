@@ -17,12 +17,19 @@
 
 options:
   -v VCF, --vcf VCF     Input VCF file
+  
   -l LIST, --list LIST  List of individual ID and queen ID
-  -r ROWNUM, --rownum ROWNUM
-                        Number of header rows in the VCF file minus 1
-  -ht HETEROZYGOT_THRES, --heterozygot_thres HETEROZYGOT_THRES
-                        Threshold for heterozygosity (default=0.125)
+  
+  -r ROWNUM, --rownum ROWNUM Number of header rows in the VCF file minus 1
+  
+  -ht HETEROZYGOT_THRES, --heterozygot_thres HETEROZYGOT_THRES Threshold for heterozygosity (default=0.125)
+  
+--------------------------------------------------------------------------------
+ 
+## Notes
 
 By default the script considers that the queen is heterozygous if at least 0.125 of her ofspring carry the minor allele. This threshold can change using the -ht flag
+
+If there is information by only three or less drones, the script sets queens genotype to missing on that possition
 
 The script can handle up to two alleles.
