@@ -7,7 +7,7 @@
 
  * A VCF file
 
- * A list of the haploid individuals in the vcf file. One individual per line.
+ * A map of droneID and the corresponding queenID. One individual per line.
   
  * The number of header lines in the vcf file.
   
