@@ -229,7 +229,7 @@
 ##bcftools_normVersion=1.21+htslib-1.21
 ##bcftools_normCommand=norm -d none -O z9 -o deduplicated_chr12.vcf.gz renamed_Haploview_chr12.vcf.gz; Date=Thu May 29 06:22:05 2025
 ##bcftools_viewCommand=view -m 2 -M 2 -v snps -O z9 -o deduplicated_chr12_test.vcf.gz deduplicated_chr12.vcf.gz; Date=Tue Jun 10 11:21:23 2025
-##bcftools_viewCommand=view -S split_pop_chr12_test.list -O z9 -o deduplicated_chr12_test_SHF_pops.vcf.gz deduplicated_chr12_test.vcf.gz; Date=Tue Jun 10 11:24:05 2025
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	F21	F23	F24	F25	F29	F34	F35	F43
 12	8476494	12_8476494	C	T	16960.5	PASS	AC=4;AN=58	GT:AD:DP:GQ:PL	0/0	0/0	0/0	0/0	0/0	0/0	0/1	0/0
 12	8476514	12_8476514	A	G	29394.3	PASS	AC=4;AN=58	GT:AD:DP:GQ:PGT:PID:PL	0/1	0/0	0/0	0/0	0/0	0/0	0/0	0/0
 12	8477309	12_8477309	C	T	8690.82	PASS	AC=2;AN=59	GT:AD:DP:GQ:PL	0/0	0/0	0/1	0/0	0/0	0/0	0/0	0/0
